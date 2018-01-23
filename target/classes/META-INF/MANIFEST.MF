@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2018-01-22T22:30:25-0600
+Atlassian-Plugin-Key: com.atlassian.tutorial.myPlugin
+Bnd-LastModified: 1516681826585
+Build-Jdk: 1.8.0_101
+Built-By: Jaswanth
+Bundle-Description: This is the com.atlassian.tutorial:myPlugin plugin f
+ or Atlassian JIRA.
+Bundle-DocURL: http://developer.atlassian.com/
+Bundle-ManifestVersion: 2
+Bundle-Name: myPlugin
+Bundle-SymbolicName: com.atlassian.tutorial.myPlugin
+Bundle-Vendor: Atlassian SDK Tutorial
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.atlassian.tutorial.myPlugin.api;version="1.0.0"
+Import-Package: org.springframework.osgi.context;resolution:=optional,or
+ g.springframework.osgi.service.exporter.support;resolution:=optional,or
+ g.springframework.osgi.service.importer.support;resolution:=optional,or
+ g.eclipse.gemini.blueprint.context;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.exporter;resolution:=optional,org.eclipse.gemini.
+ blueprint.service.exporter.support;resolution:=optional,org.eclipse.gem
+ ini.blueprint.service.importer.support;resolution:=optional,com.atlassi
+ an.plugin.osgi.factory,com.atlassian.sal.api,com.atlassian.tutorial.myP
+ lugin.api,com.google.common.base,com.google.common.collect,javax.annota
+ tion,javax.inject,org.apache.commons.lang,org.apache.commons.logging,or
+ g.osgi.framework,org.springframework.aop.support,org.springframework.be
+ ans,org.springframework.beans.factory,org.springframework.beans.factory
+ .annotation,org.springframework.beans.factory.config,org.springframewor
+ k.beans.factory.parsing,org.springframework.beans.factory.support,org.s
+ pringframework.beans.factory.xml,org.springframework.context.annotation
+ ,org.springframework.core.io,org.springframework.stereotype,org.springf
+ ramework.util,org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Spring-Context: *
+Tool: Bnd-2.4.1.201501161923
